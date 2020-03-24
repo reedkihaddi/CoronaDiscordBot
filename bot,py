@@ -41,7 +41,7 @@ async def coronavirus(ctx):
     for i in ls_cases:
         cases = cases + str(i)
 
-    ls_deaths = (ls[6:12])
+    ls_deaths = (ls[6:11])
     deaths = ''
     for i in ls_deaths:
         deaths = deaths + str(i)
